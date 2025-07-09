@@ -14,9 +14,9 @@
 .field-label {
   background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 4px 8px;
+  padding: 1px 1px;
   font-weight: 600;
-  font-size: 9px;
+  font-size: 14px;
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -25,9 +25,9 @@
 .field-value {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 4px 12px;
-  min-width: 60px;
-  font-size: 9px;
+  padding: 1px 1px;
+  min-width: 45px;
+  font-size: 14px;
   font-weight: 500;
   border-radius: 4px;
   text-align: center;

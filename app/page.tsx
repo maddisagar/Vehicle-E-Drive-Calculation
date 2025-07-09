@@ -12,9 +12,9 @@ export default function Dashboard() {
   return (
     <div className="dashboard-container">
       <Header />
+      <CustomerSection />
       <div className="main-content">
         <div className="section-left">
-          <CustomerSection />
           <DrivingLevelRoad />
         </div>
         <div className="section-middle">
