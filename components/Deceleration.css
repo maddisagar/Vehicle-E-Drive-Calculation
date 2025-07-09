@@ -1,0 +1,12 @@
+.decel-section {
+  flex: 0.8;
+  margin-top: 20px;
+}
+
+.decel-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1px;
+  align-items: center;
+  align-content: start;
+}

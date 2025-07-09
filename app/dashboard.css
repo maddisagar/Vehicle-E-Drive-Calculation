@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px; /* Increased from 14px */
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.section-left,
+.section-middle,
+.section-right {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section-middle {
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+}
+
+.section-title {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  padding: 4px 12px; /* Increased padding */
+  margin: -12px -12px 12px -12px; /* Increased margin */
+  border-radius: 6px 6px 0 0;
+  font-size: 16px; /* Increased from 10px */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.parameter-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1px;
+  align-items: center;
+}
+
+.parameter-row {
+  display: contents;
+}
+
+.parameter-label {
+  background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6px 8px; /* Increased padding */
+  font-weight: 500;
+  font-size: 9px; /* Increased from 8px */
+  border-radius: 2px;
+}
+
+.parameter-value {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6px 8px; /* Increased padding */
+  text-align: center;
+  min-width: 45px; /* Increased from 35px */
+  font-size: 9px; /* Increased from 8px */
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.parameter-unit {
+  background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 6px 8px; /* Increased padding */
+  text-align: center;
+  min-width: 40px; /* Increased from 30px */
+  font-size: 9px; /* Increased from 7px */
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.calculated-value {
+  background: linear-gradient(135deg, #90ee90 0%, #7dd87d 100%) !important;
+  font-weight: 600;
+  color: #2d5a2d;
+}
+
+.yellow-header {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%) !important;
+}

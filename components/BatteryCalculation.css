@@ -1,0 +1,21 @@
+.battery-section {
+  flex: 1;
+  min-height: 0;
+  margin-top: 20px;
+}
+
+.battery-grid {
+  display: flex;
+  gap: 6px;
+  height: 100%;
+}
+
+.battery-left,
+.battery-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1px;
+  align-items: center;
+  align-content: start;
+}

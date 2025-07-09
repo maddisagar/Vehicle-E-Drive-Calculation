@@ -1,0 +1,153 @@
+.graph-section {
+  flex: 1;
+  min-height: 0;
+}
+
+.graph-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 10px;
+  color: #333;
+}
+
+.graph-area {
+  flex: 1;
+  display: flex;
+  position: relative;
+  min-height: 0;
+}
+
+.y-axis {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.y-label {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 8px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #666;
+}
+
+.y-values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 7px;
+  color: #666;
+}
+
+.y-axis-right {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.y-label-right {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 8px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #666;
+}
+
+.y-values-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 7px;
+  color: #666;
+}
+
+.graph-plot {
+  flex: 1;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+  border-radius: 4px;
+}
+
+.legend {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 2px;
+}
+
+.legend-color {
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.top-speed {
+  background: linear-gradient(90deg, #ff4444, #ff6666);
+}
+
+.gradient-3 {
+  background: linear-gradient(90deg, #44ff44, #66ff66);
+}
+
+.gradient-7 {
+  background: linear-gradient(90deg, #4444ff, #6666ff);
+}
+
+.gradient-speed {
+  background: linear-gradient(90deg, #ffff44, #ffff66);
+}
+
+.x-axis {
+  margin-top: 6px;
+}
+
+.x-label {
+  text-align: center;
+  font-weight: 600;
+  font-size: 8px;
+  margin-bottom: 3px;
+  color: #666;
+}
+
+.x-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 7px;
+  padding: 0 50px;
+  color: #666;
+}
+
+.graph-grid {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 40px 25px;
+  border-radius: 4px;
+}

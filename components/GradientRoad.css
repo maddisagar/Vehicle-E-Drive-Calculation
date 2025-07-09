@@ -1,0 +1,11 @@
+.gradient-section {
+  flex: 1;
+}
+
+.gradient-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1px;
+  align-items: center;
+  align-content: start;
+}
