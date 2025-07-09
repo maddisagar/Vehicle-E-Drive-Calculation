@@ -49,7 +49,7 @@
 
 .driving-section .parameter-value {
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.2);
   padding: 1px 1px; /* Reduced padding */
   text-align: center;
   min-width: 45px; /* Increased from 35px */
@@ -59,7 +59,6 @@
 }
 
 .driving-section .parameter-unit {
-  /* background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%); */
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px 1px; /* Reduced padding */
   text-align: center;
