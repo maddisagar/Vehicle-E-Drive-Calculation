@@ -27,9 +27,9 @@ export default function SteepGradient() {
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Total Tractive Effort</span>
-            <span className="parameter-value calculated-value">3953</span>
-            <span className="parameter-unit">N</span>
+            <span className="parameter-label">Avg Velocity</span>
+            <span className="parameter-value calculated-value">2.78</span>
+            <span className="parameter-unit">m/s</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Distance Travelled</span>
@@ -39,14 +39,14 @@ export default function SteepGradient() {
         </div>
         <div className="parameter-group">
           <div className="parameter-row">
-            <span className="parameter-label">Avg Velocity</span>
-            <span className="parameter-value calculated-value">2.78</span>
-            <span className="parameter-unit">m/s</span>
-          </div>
-          <div className="parameter-row">
             <span className="parameter-label">Motor Power</span>
             <span className="parameter-value calculated-value">10.98</span>
             <span className="parameter-unit">KW</span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label">Total Tractive Effort</span>
+            <span className="parameter-value calculated-value">3953</span>
+            <span className="parameter-unit">N</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Motor Speed</span>

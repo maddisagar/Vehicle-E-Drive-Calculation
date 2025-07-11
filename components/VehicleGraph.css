@@ -12,7 +12,7 @@
 .graph-title {
   text-align: center;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   font-size: 14px;
   color: #333;
 }
@@ -36,7 +36,7 @@
   text-orientation: mixed;
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   color: #666;
 }
 
@@ -61,7 +61,7 @@
   text-orientation: mixed;
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   color: #666;
 }
 
@@ -84,12 +84,12 @@
 
 .legend {
   position: absolute;
-  top: 6px;
-  right: 6px;
+  top: 3px;
+  right: 3px;
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  padding: 1px 1px;
+  padding: 0px 0px;
   font-size: 14px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

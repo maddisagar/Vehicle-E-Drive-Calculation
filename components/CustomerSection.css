@@ -1,20 +1,20 @@
 .customer-section {
   display: flex;
-  gap: 12px;
-  margin-bottom: 8px;
+  gap: 6px;
+  margin-bottom: 4px;
   justify-content: center;
 }
 
 .customer-field {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 2px;
 }
 
 .field-label {
   background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1px 1px;
+  padding: 0px 0px;
   font-weight: 600;
   font-size: 14px;
   border-radius: 4px;
@@ -25,7 +25,7 @@
 .field-value {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1px 1px;
+  padding: 0px 0px;
   min-width: 45px;
   font-size: 14px;
   font-weight: 500;

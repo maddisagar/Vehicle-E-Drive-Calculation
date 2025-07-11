@@ -91,14 +91,14 @@ export default function DrivingLevelRoad() {
             <span className="parameter-value calculated-value">26.70</span>
             <span className="parameter-unit">Nm</span>
           </div>
-        </div>
-
-        <div className="right-column">
           <div className="parameter-row">
             <span className="parameter-label">Vehicle Weight</span>
             <span className="parameter-value">1200</span>
             <span className="parameter-unit">Kg</span>
           </div>
+        </div>
+
+        <div className="right-column">
           <div className="parameter-row">
             <span className="parameter-label">Passenger Weight</span>
             <span className="parameter-value">0</span>

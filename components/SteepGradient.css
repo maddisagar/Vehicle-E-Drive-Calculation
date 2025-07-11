@@ -1,12 +1,12 @@
 .steep-section {
   flex: 1;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .steep-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 2px;
   align-items: start;
   align-content: start;
 }
@@ -30,17 +30,17 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px 1px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 2px;
 }
 
 .steep-section .parameter-value {
   background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.2);
   padding: 1px 1px;
   text-align: center;
   min-width: 45px;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 500;
   border-radius: 2px;
 }
@@ -51,7 +51,7 @@
   padding: 1px 1px;
   text-align: center;
   min-width: 40px;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 500;
   border-radius: 2px;
 }

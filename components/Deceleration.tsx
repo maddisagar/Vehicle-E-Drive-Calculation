@@ -32,6 +32,7 @@ export default function Deceleration() {
             <span className="parameter-unit">RPM</span>
           </div>
         </div>
+        
         <div className="parameter-group">
           <div className="parameter-row">
             <span className="parameter-label">Avg Torque</span>

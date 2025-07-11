@@ -10,7 +10,8 @@
 .section-title {
   font-size: 3rem; /* Increase font size */
   font-weight: 700;
-  margin-bottom: 20px;
+  margin: 0 0 4px 0 !important;
+  padding: 0 6px !important;
 }
 
 .yellow-header {
@@ -19,7 +20,7 @@
 
 .driving-grid {
   display: flex;
-  gap: 8px;
+  gap: 2px;
   height: 100%;
   flex: 1; /* Take remaining height */
 }
@@ -43,7 +44,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px 1px; /* Reduced padding */
   font-weight: 500;
-  font-size: 14px; /* Increased font size */
+  font-size: 12px; /* Increased font size */
   border-radius: 2px;
 }
 
@@ -53,7 +54,7 @@
   padding: 1px 1px; /* Reduced padding */
   text-align: center;
   min-width: 45px; /* Increased from 35px */
-  font-size: 14px; /* Increased font size */
+  font-size: 11px; /* Increased font size */
   font-weight: 500;
   border-radius: 2px;
 }
@@ -63,7 +64,7 @@
   padding: 1px 1px; /* Reduced padding */
   text-align: center;
   min-width: 40px; /* Increased from 30px */
-  font-size: 14px; /* Increased font size */
+  font-size: 11px; /* Increased font size */
   font-weight: 500;
   border-radius: 2px;
 }
