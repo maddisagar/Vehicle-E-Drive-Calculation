@@ -32,7 +32,7 @@ export default function DrivingLevelRoad() {
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Accelerated Velocity</span>
+            <span className="parameter-label">Velocity-1</span>
             <span className="parameter-value">45</span>
             <span className="parameter-unit">Kmph</span>
           </div>
@@ -42,7 +42,7 @@ export default function DrivingLevelRoad() {
             <span className="parameter-unit">sec</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Final Velocity</span>
+            <span className="parameter-label">Final Velocity-2</span>
             <span className="parameter-value">45</span>
             <span className="parameter-unit">Kmph</span>
           </div>
@@ -57,13 +57,13 @@ export default function DrivingLevelRoad() {
             <span className="parameter-unit">Kg</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Total Tractive Effort</span>
-            <span className="parameter-value">1717</span>
+            <span className="parameter-label">Total Tractive</span>
+            <span className="parameter-value calculated-value">1717</span>
             <span className="parameter-unit">N</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Acceleration</span>
-            <span className="parameter-value">1.25</span>
+            <span className="parameter-value calculated-value">1.25</span>
             <span className="parameter-unit">m/s²</span>
           </div>
           <div className="parameter-row">
@@ -78,7 +78,7 @@ export default function DrivingLevelRoad() {
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Avg Accel Torque</span>
-            <span className="parameter-value">30</span>
+            <span className="parameter-value calculated-value">30</span>
             <span className="parameter-unit">Nm</span>
           </div>
           <div className="parameter-row">
@@ -92,13 +92,33 @@ export default function DrivingLevelRoad() {
             <span className="parameter-unit">Nm</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Vehicle Weight</span>
-            <span className="parameter-value">1200</span>
-            <span className="parameter-unit">Kg</span>
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
           </div>
         </div>
 
         <div className="right-column">
+          <div className="parameter-row">
+            <span className="parameter-label">Vehicle Weight</span>
+            <span className="parameter-value">1200</span>
+            <span className="parameter-unit">Kg</span>
+          </div>
           <div className="parameter-row">
             <span className="parameter-label">Passenger Weight</span>
             <span className="parameter-value">0</span>
@@ -130,7 +150,7 @@ export default function DrivingLevelRoad() {
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Transmission Efficiency</span>
+            <span className="parameter-label">Transmission Effie</span>
             <span className="parameter-value">90</span>
             <span className="parameter-unit">%</span>
           </div>
@@ -140,7 +160,7 @@ export default function DrivingLevelRoad() {
             <span className="parameter-unit">m2</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Const Tractive Effort</span>
+            <span className="parameter-label">Cont Tractive Effort</span>
             <span className="parameter-value calculated-value">217</span>
             <span className="parameter-unit">N</span>
           </div>
@@ -160,24 +180,44 @@ export default function DrivingLevelRoad() {
             <span className="parameter-unit">KW</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Final Avg Accel Torque</span>
+            <span className="parameter-label">Cont-Rated Torque</span>
             <span className="parameter-value calculated-value">7.6</span>
             <span className="parameter-unit">Nm</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Top Const-Speed Power</span>
+            <span className="parameter-label">Cont-Rated Power</span>
             <span className="parameter-value calculated-value">3.01</span>
             <span className="parameter-unit">KW</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Final Const-Motor Speed</span>
+            <span className="parameter-label">Max Rated Speed</span>
             <span className="parameter-value calculated-value">3789</span>
             <span className="parameter-unit">RPM</span>
           </div>
           <div className="parameter-row">
-            <span className="parameter-label">Torque at Top Speed</span>
+            <span className="parameter-label">Cont-Rated Torque</span>
             <span className="parameter-value calculated-value">7.6</span>
             <span className="parameter-unit">Nm</span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function CustomerSection() {
         </div>
         <div className="customer-field">
           <span className="field-label">Date</span>
-          <span className="field-value">6-24-25</span>
+          <span className="field-value  date-section">6-24-25</span>
         </div>
       </div>
     </div>

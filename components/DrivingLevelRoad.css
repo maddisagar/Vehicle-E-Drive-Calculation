@@ -3,6 +3,7 @@
   max-width: 900px; /* Reduce extra width */
   margin: 0 auto; /* Center horizontally */
   height: 100vh; /* Full screen height */
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -44,8 +45,9 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px 1px; /* Reduced padding */
   font-weight: 500;
-  font-size: 12px; /* Increased font size */
+  font-size: 11px; /* Increased font size */
   border-radius: 2px;
+  min-height: 20px;
 }
 
 .driving-section .parameter-value {
@@ -57,6 +59,7 @@
   font-size: 11px; /* Increased font size */
   font-weight: 500;
   border-radius: 2px;
+  min-height: 20px;
 }
 
 .driving-section .parameter-unit {
@@ -67,6 +70,7 @@
   font-size: 11px; /* Increased font size */
   font-weight: 500;
   border-radius: 2px;
+  min-height: 20px;
 }
 
 .calculated-value {

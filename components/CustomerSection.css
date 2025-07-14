@@ -31,9 +31,14 @@
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0px 0px;
-  min-width: 330px;
+  min-width: 430px;
   font-size: 14px;
   font-weight: 500;
   border-radius: 4px;
+  text-align: center;
+}
+
+.field-value.date-section {
+  min-width: 120px; /* Adjusted for date display */
   text-align: center;
 }

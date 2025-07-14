@@ -31,8 +31,9 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px 1px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 2px;
+  min-height: 20px;
 }
 
 .battery-section .parameter-value {
@@ -44,6 +45,7 @@
   font-size: 11px;
   font-weight: 500;
   border-radius: 2px;
+  min-height: 20px;
 }
 
 .battery-section .parameter-unit {
@@ -55,6 +57,7 @@
   font-size: 11px;
   font-weight: 500;
   border-radius: 2px;
+  min-height: 20px;
 }
 
 .calculated-value {

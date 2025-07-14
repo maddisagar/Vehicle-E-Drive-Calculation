@@ -63,6 +63,11 @@ export default function SteepGradient() {
             <span className="parameter-value calculated-value">61.49</span>
             <span className="parameter-unit">Nm</span>
           </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
         </div>
       </div>
     </div>

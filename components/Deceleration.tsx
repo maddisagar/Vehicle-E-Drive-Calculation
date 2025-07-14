@@ -31,6 +31,11 @@ export default function Deceleration() {
             <span className="parameter-value">68</span>
             <span className="parameter-unit">RPM</span>
           </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
+          </div>
         </div>
         
         <div className="parameter-group">
@@ -58,6 +63,11 @@ export default function Deceleration() {
             <span className="parameter-label">Deceleration</span>
             <span className="parameter-value calculated-value">-0.78</span>
             <span className="parameter-unit">m/s²</span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
           </div>
         </div>
       </div>
