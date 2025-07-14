@@ -47,10 +47,10 @@
 
 .title-section h1 {
   background: linear-gradient(135deg, #90ee90 0%, #7dd87d 100%);
-  color: #2d5a2d;
+  color: #000000;
   font-weight: 700;
   text-align: center;
-  padding: 0px 0px;
+  padding: 4px 0px;
   margin: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;

@@ -27,7 +27,7 @@
 }
 
 .battery-section .parameter-label {
-  background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%);
+  background: rgb(154, 226, 248);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1px 1px;
   font-weight: 500;

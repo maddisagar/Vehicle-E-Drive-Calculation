@@ -2,20 +2,25 @@
   display: flex;
   gap: 6px;
   margin-bottom: 4px;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .customer-field {
   display: flex;
   align-items: center;
   gap: 2px;
+  flex-grow: 1;
+  min-width: 0; /* allow shrinking */
+  justify-content: space-between;
+  padding: 0 8px;
 }
 
 .field-label {
   background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0px 0px;
-  font-weight: 600;
+  padding: 0px 2px;
+  font-weight: 800;
   font-size: 14px;
   border-radius: 4px;
   text-transform: uppercase;
@@ -26,7 +31,7 @@
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0px 0px;
-  min-width: 45px;
+  min-width: 330px;
   font-size: 14px;
   font-weight: 500;
   border-radius: 4px;
