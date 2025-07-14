@@ -8,47 +8,47 @@ export default function DrivingLevelRoad() {
         <div className="left-column">
           <div className="parameter-row">
             <span className="parameter-label">Gear-1</span>
-            <span className="parameter-value">8</span>
+            <input className="parameter-value" type="text" defaultValue="8" />
             <span className="parameter-unit"></span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Gear2</span>
-            <span className="parameter-value">18</span>
+            <input className="parameter-value" type="text" defaultValue="18" />
             <span className="parameter-unit"></span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Wheel Radius</span>
-            <span className="parameter-value">0.252</span>
+            <input className="parameter-value" type="text" defaultValue="0.252" />
             <span className="parameter-unit">m</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Soft Start Kmph</span>
-            <span className="parameter-value">0</span>
+            <input className="parameter-value" type="text" defaultValue="0" />
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Initial Velocity</span>
-            <span className="parameter-value">0</span>
+            <input className="parameter-value" type="text" defaultValue="0" />
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Velocity-1</span>
-            <span className="parameter-value">45</span>
+            <input className="parameter-value" type="text" defaultValue="45" />
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Acceleration Time</span>
-            <span className="parameter-value">10</span>
+            <input className="parameter-value" type="text" defaultValue="10" />
             <span className="parameter-unit">sec</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Final Velocity-2</span>
-            <span className="parameter-value">45</span>
+            <input className="parameter-value" type="text" defaultValue="45" />
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Final Accel time</span>
-            <span className="parameter-value">10</span>
+            <input className="parameter-value" type="text" defaultValue="10" />
             <span className="parameter-unit">sec</span>
           </div>
           <div className="parameter-row">
@@ -116,47 +116,47 @@ export default function DrivingLevelRoad() {
         <div className="right-column">
           <div className="parameter-row">
             <span className="parameter-label">Vehicle Weight</span>
-            <span className="parameter-value">1200</span>
+            <input className="parameter-value" type="text" defaultValue="1200" />
             <span className="parameter-unit">Kg</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Passenger Weight</span>
-            <span className="parameter-value">0</span>
+            <input className="parameter-value" type="text" defaultValue="0" />
             <span className="parameter-unit">Kg</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Passengers</span>
-            <span className="parameter-value">1</span>
+            <input className="parameter-value" type="text" defaultValue="1" />
             <span className="parameter-unit"></span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Gradient</span>
-            <span className="parameter-value">0.1</span>
+            <input className="parameter-value" type="text" defaultValue="0.1" />
             <span className="parameter-unit">deg</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Rolling Resistance</span>
-            <span className="parameter-value">0.015</span>
+            <input className="parameter-value" type="text" defaultValue="0.015" />
             <span className="parameter-unit"></span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Coefficient of Drag</span>
-            <span className="parameter-value">0.2</span>
+            <input className="parameter-value" type="text" defaultValue="0.2" />
             <span className="parameter-unit"></span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Wind Speed</span>
-            <span className="parameter-value">1</span>
+            <input className="parameter-value" type="text" defaultValue="1" />
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Transmission Effie</span>
-            <span className="parameter-value">90</span>
+            <input className="parameter-value" type="text" defaultValue="90" />
             <span className="parameter-unit">%</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Front Area</span>
-            <span className="parameter-value">1</span>
+            <input className="parameter-value" type="text" defaultValue="1" />
             <span className="parameter-unit">m2</span>
           </div>
           <div className="parameter-row">

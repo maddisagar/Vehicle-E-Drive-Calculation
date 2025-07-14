@@ -8,22 +8,22 @@ export default function GradientRoad() {
         <div className="parameter-group">
           <div className="parameter-row">
             <span className="parameter-label">Gradient</span>
-            <span className="parameter-value">9</span>
+            <input className="parameter-value" type="text" defaultValue="9" />
             <span className="parameter-unit">deg</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Initial Velocity</span>
-            <span className="parameter-value">0</span>
+            <input className="parameter-value" type="text" defaultValue="0" />
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Acceleration Time</span>
-            <span className="parameter-value">20</span>
+            <input className="parameter-value" type="text" defaultValue="20" />
             <span className="parameter-unit">sec</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Final Velocity</span>
-            <span className="parameter-value">10</span>
+            <input className="parameter-value" type="text" defaultValue="10" />
             <span className="parameter-unit">Kmph</span>
           </div>
           <div className="parameter-row">

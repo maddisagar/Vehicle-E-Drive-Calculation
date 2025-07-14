@@ -8,17 +8,17 @@ export default function BatteryCalculation() {
         <div className="battery-left">
           <div className="parameter-row">
             <span className="parameter-label">Battery Ampere Rating</span>
-            <span className="parameter-value">2</span>
+            <input className="parameter-value" type="text" defaultValue="2" />
             <span className="parameter-unit">KWH</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Peukerts effect loss</span>
-            <span className="parameter-value">0</span>
+            <input className="parameter-value" type="text" defaultValue="0" />
             <span className="parameter-unit">%</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Motor + Contr Efficiency</span>
-            <span className="parameter-value">88</span>
+            <input className="parameter-value" type="text" defaultValue="88" />
             <span className="parameter-unit">%</span>
           </div>
           <div className="parameter-row">
@@ -55,12 +55,12 @@ export default function BatteryCalculation() {
         <div className="battery-right">
           <div className="parameter-row">
             <span className="parameter-label">Battery Voltage</span>
-            <span className="parameter-value">51</span>
+            <input className="parameter-value" type="text" defaultValue="51" />
             <span className="parameter-unit">Volt</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">SOC Usable %</span>
-            <span className="parameter-value">80</span>
+            <input className="parameter-value" type="text" defaultValue="80" />
             <span className="parameter-unit">%</span>
           </div>
           <div className="parameter-row">

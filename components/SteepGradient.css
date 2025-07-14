@@ -48,6 +48,21 @@
   min-height: 20px;
 }
 
+.steep-section input.parameter-value {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 1px 1px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 2px;
+  min-height: 20px;
+  outline: none;
+  box-sizing: border-box;
+  width: 45px;
+  height: 20px;
+}
+
 .steep-section .parameter-unit {
   /* background: linear-gradient(135deg, #e6e6fa 0%, #d1d1f0 100%); */
   border: 1px solid rgba(0, 0, 0, 0.1);

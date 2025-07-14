@@ -8,7 +8,7 @@ export default function Deceleration() {
         <div className="parameter-group">
           <div className="parameter-row">
             <span className="parameter-label">Distance to Stop</span>
-            <span className="parameter-value">100</span>
+            <input className="parameter-value" type="text" defaultValue="100" />
             <span className="parameter-unit">mts</span>
           </div>
           <div className="parameter-row">
@@ -46,7 +46,7 @@ export default function Deceleration() {
         <div className="parameter-group">
           <div className="parameter-row">
             <span className="parameter-label">Final Velocity</span>
-            <span className="parameter-value">0</span>
+            <input className="parameter-value" type="text" defaultValue="0" />
             <span className="parameter-unit">m/s</span>
           </div>
           <div className="parameter-row">
