@@ -18,8 +18,10 @@ export default function Dashboard() {
           <DrivingLevelRoad />
         </div>
         <div className="section-middle">
-          <GradientRoad />
-          <SteepGradient />
+          <div className="side-by-side-container">
+            <GradientRoad />
+            <SteepGradient />
+          </div>
           <Deceleration />
         </div>
         <div className="section-right">

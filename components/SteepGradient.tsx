@@ -36,8 +36,6 @@ export default function SteepGradient() {
             <span className="parameter-value calculated-value">100.00</span>
             <span className="parameter-unit">mts</span>
           </div>
-        </div>
-        <div className="parameter-group">
           <div className="parameter-row">
             <span className="parameter-label">Motor Power</span>
             <span className="parameter-value calculated-value">10.98</span>
@@ -62,6 +60,11 @@ export default function SteepGradient() {
             <span className="parameter-label">Max Torque</span>
             <span className="parameter-value calculated-value">61.49</span>
             <span className="parameter-unit">Nm</span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label"></span>

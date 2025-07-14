@@ -36,8 +36,6 @@ export default function GradientRoad() {
             <span className="parameter-value calculated-value">27.78</span>
             <span className="parameter-unit">mts</span>
           </div>
-        </div>
-        <div className="parameter-group">
           <div className="parameter-row">
             <span className="parameter-label">Avg Velocity</span>
             <span className="parameter-value calculated-value">2.78</span>
@@ -67,6 +65,11 @@ export default function GradientRoad() {
             <span className="parameter-label">Initial Speed</span>
             <span className="parameter-value calculated-value">95</span>
             <span className="parameter-unit">RPM</span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label"></span>
+            <span className="parameter-value calculated-value"></span>
+            <span className="parameter-unit"></span>
           </div>
         </div>
       </div>

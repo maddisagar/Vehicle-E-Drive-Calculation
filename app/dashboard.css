@@ -112,3 +112,16 @@
 .yellow-header {
   background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%) !important;
 }
+
+.side-by-side-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.side-by-side-container > * {
+  flex: 1;
+  max-width: 50%;
+  box-sizing: border-box;
+}
