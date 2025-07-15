@@ -1,0 +1,142 @@
+<div className="customer-field">
+          <label className="field-label" htmlFor="customer-input">Customer</label>
+          <input
+            id="customer-input"
+            className="field-value input-field"
+            type="text"
+            value={customer}
+            onChange={(e) => setCustomer(e.target.value)}
+          />
+        </div>
+        <div className="customer-field">
+          <label className="field-label" htmlFor="application-input">Application</label>
+          <input
+            id="application-input"
+            className="field-value input-field"
+            type="text"
+            value={application}
+            onChange={(e) => setApplication(e.target.value)}
+          />
+        </div>
+=======
+  const calendarRef = useRef<HTMLDivElement>(null);
+
+>>>>>>> REPLACE
+<<<<<<< SEARCH
+        <div className="customer-field">
+          <span className="field-label">Customer</span>
+          <span className="field-value">3EV</span>
+        </div>
+        <div className="customer-field">
+          <span className="field-label">Application</span>
+          <span className="field-value">1</span>
+        </div>
+        <div className="customer-field">
+          <span className="field-label">Date</span>
+          <button
+            className="field-value date-section date-button"
+            onClick={() => setShowCalendar(!showCalendar)}
+            aria-label="Select date"
+          >
+            {formatDate(selectedDate)}
+          </button>
+          {showCalendar && (
+            <div className="calendar-popup" ref={calendarRef}>
+              <div className="calendar-header">
+                <button className="month-nav-button" onClick={handlePrevMonth} aria-label="Previous month">{'<'}</button>
+                <span>{new Date(calendarYear, calendarMonth).toLocaleString("default", { month: "long", year: "numeric" })}</span>
+                <button className="month-nav-button" onClick={handleNextMonth} aria-label="Next month">{'>'}</button>
+              </div>
+              <div className="calendar-grid">
+                <div className="calendar-weekday">Sun</div>
+                <div className="calendar-weekday">Mon</div>
+                <div className="calendar-weekday">Tue</div>
+                <div className="calendar-weekday">Wed</div>
+                <div className="calendar-weekday">Thu</div>
+                <div className="calendar-weekday">Fri</div>
+                <div className="calendar-weekday">Sat</div>
+                {days.map((day, idx) => (
+                  <button
+                    key={idx}
+                    className={`calendar-day ${
+                      day === selectedDate.getDate() &&
+                      calendarYear === selectedDate.getFullYear() &&
+                      calendarMonth === selectedDate.getMonth()
+                        ? "selected"
+                        : ""
+                    }`}
+                    onClick={() => handleDateClick(day)}
+                    disabled={day === null}
+                  >
+                    {day || ""}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+=======
+        <div className="customer-field">
+          <label className="field-label" htmlFor="customer-input">Customer</label>
+          <input
+            id="customer-input"
+            className="field-value input-field"
+            type="text"
+            value={customer}
+            onChange={(e) => setCustomer(e.target.value)}
+          />
+        </div>
+        <div className="customer-field">
+          <label className="field-label" htmlFor="application-input">Application</label>
+          <input
+            id="application-input"
+            className="field-value input-field"
+            type="text"
+            value={application}
+            onChange={(e) => setApplication(e.target.value)}
+          />
+        </div>
+        <div className="customer-field">
+          <span className="field-label">Date</span>
+          <button
+            className="field-value date-section date-button"
+            onClick={() => setShowCalendar(!showCalendar)}
+            aria-label="Select date"
+          >
+            {formatDate(selectedDate)}
+          </button>
+          {showCalendar && (
+            <div className="calendar-popup" ref={calendarRef}>
+              <div className="calendar-header">
+                <button className="month-nav-button" onClick={handlePrevMonth} aria-label="Previous month">{'<'}</button>
+                <span>{new Date(calendarYear, calendarMonth).toLocaleString("default", { month: "long", year: "numeric" })}</span>
+                <button className="month-nav-button" onClick={handleNextMonth} aria-label="Next month">{'>'}</button>
+              </div>
+              <div className="calendar-grid">
+                <div className="calendar-weekday">Sun</div>
+                <div className="calendar-weekday">Mon</div>
+                <div className="calendar-weekday">Tue</div>
+                <div className="calendar-weekday">Wed</div>
+                <div className="calendar-weekday">Thu</div>
+                <div className="calendar-weekday">Fri</div>
+                <div className="calendar-weekday">Sat</div>
+                {days.map((day, idx) => (
+                  <button
+                    key={idx}
+                    className={`calendar-day ${
+                      day === selectedDate.getDate() &&
+                      calendarYear === selectedDate.getFullYear() &&
+                      calendarMonth === selectedDate.getMonth()
+                        ? "selected"
+                        : ""
+                    }`}
+                    onClick={() => handleDateClick(day)}
+                    disabled={day === null}
+                  >
+                    {day || ""}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>

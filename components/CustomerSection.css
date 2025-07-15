@@ -14,6 +14,7 @@
   min-width: 0; /* allow shrinking */
   justify-content: space-between;
   padding: 0 8px;
+  position: relative; /* added for calendar popup positioning */
 }
 
 .field-label {
@@ -41,4 +42,103 @@
 .field-value.date-section {
   min-width: 120px; /* Adjusted for date display */
   text-align: center;
+  background: white;
+}
+
+/* Added styles for date calendar */
+
+.date-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.date-button:hover {
+  background-color: #e6e6fa;
+}
+
+.calendar-popup {
+  position: absolute;
+  top: 100%; /* position below the button */
+  right: 0; /* align right edges to prevent overflow */
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 8px;
+  margin-top: 4px;
+  z-index: 1000;
+  user-select: none;
+  width: max-content; /* fit content width */
+  min-width: 200px; /* minimum width for usability */
+  max-width: 90vw; /* prevent overflow beyond viewport */
+  overflow-x: auto; /* allow horizontal scroll if needed */
+}
+
+.calendar-header {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 32px);
+  gap: 4px;
+  justify-content: center;
+}
+
+.calendar-weekday {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+}
+
+.calendar-day {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.calendar-day:hover:not(:disabled) {
+  background-color: #d1d1f0;
+}
+
+.calendar-day.selected {
+  background-color: #6a5acd;
+  color: white;
+}
+
+.calendar-day:disabled {
+  cursor: default;
+  color: transparent;
+}
+
+.month-nav-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 8px;
+  color: #6a5acd;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.month-nav-button:hover {
+  color: #483d8b;
 }

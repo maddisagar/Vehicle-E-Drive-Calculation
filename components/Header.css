@@ -4,7 +4,7 @@
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  padding: 2px 0px;
+  padding: 2px 2px;
   margin-bottom: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -20,37 +20,17 @@
   gap: 4px;
 }
 
-.seg-circle {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: 2px solid #4169e1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  color: #4169e1;
-  font-size: 14px;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-.seg-text {
-  color: #4169e1;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-}
-
 .title-section {
   flex: 1;
 }
 
 .title-section h1 {
-  background: linear-gradient(135deg, #90ee90 0%, #7dd87d 100%);
-  color: #000000;
+  /* background: linear-gradient(135deg, #90ee90 0%, #7dd87d 100%); */
+  background: #005286;
+  color: #ffffff;
   font-weight: 700;
   text-align: center;
-  padding: 4px 0px;
+  padding: 6px 0px;
   margin: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
